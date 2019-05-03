@@ -1,0 +1,19 @@
+public class Program {
+
+	public static void main(String[] args) {
+		int x = 1;
+		int y = 2;
+		Calculator calc = new Calculator();
+		int res = calc.add(x,y);
+		System.out.println(res);
+	}
+}
+
+class Calculator{
+	public  int add(int a, int b) {
+		return a + b;
+	}
+	public  int mult(int a, int b) {
+		return a * b;
+	}
+}

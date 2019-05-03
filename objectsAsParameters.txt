@@ -1,0 +1,42 @@
+import java.net.*;
+import java.io.*;
+
+class QAStudent
+{
+	private String name;
+	public QAStudent(String name) 	 { this.setName(name); 	}
+	public String getName() 		 { return name; 		}
+	public void setName(String name) { this.name = name; 	}
+}
+
+public class Program {
+
+	public static void main(String[] args) {
+		int x = 1;
+		changeSingleNumber(x);
+		
+		int[] numbers = {1,2,3,4,5};
+		changeNumbers(numbers);
+		for (int no : numbers) {
+			System.out.println(no);
+		}
+		
+		QAStudent stu = new QAStudent("Bob");
+		changeStudentName(stu);
+		System.out.println(stu.getName());
+	}
+	
+	private static void changeStudentName(QAStudent stu) {
+		stu.setName("Bobby");
+	}
+
+
+	private static void changeSingleNumber(int x) {
+		x = 99;
+	}
+
+
+	private static void changeNumbers(int[] numbers) {
+		numbers[0] = 99;		
+	}
+}

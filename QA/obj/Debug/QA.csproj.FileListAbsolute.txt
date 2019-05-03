@@ -1,0 +1,22 @@
+c:\users\mike\documents\visual studio 2017\Projects\WindowsFormsApp2\QA\obj\Debug\QA.csprojResolveAssemblyReference.cache
+c:\users\mike\documents\visual studio 2017\Projects\WindowsFormsApp2\QA\bin\Debug\QA.dll
+c:\users\mike\documents\visual studio 2017\Projects\WindowsFormsApp2\QA\bin\Debug\QA.pdb
+c:\users\mike\documents\visual studio 2017\Projects\WindowsFormsApp2\QA\obj\Debug\QA.dll
+c:\users\mike\documents\visual studio 2017\Projects\WindowsFormsApp2\QA\obj\Debug\QA.pdb
+C:\Users\Mike\Documents\Visual Studio 2017\Projects\Balls\QA\bin\Debug\QA.dll
+C:\Users\Mike\Documents\Visual Studio 2017\Projects\Balls\QA\bin\Debug\QA.pdb
+C:\Users\Mike\Documents\Visual Studio 2017\Projects\Balls\QA\obj\Debug\QA.csprojResolveAssemblyReference.cache
+C:\Users\Mike\Documents\Visual Studio 2017\Projects\Balls\QA\obj\Debug\QA.dll
+C:\Users\Mike\Documents\Visual Studio 2017\Projects\Balls\QA\obj\Debug\QA.pdb
+C:\Users\Administrator\Desktop\Balls\QA\bin\Debug\QA.dll
+C:\Users\Administrator\Desktop\Balls\QA\bin\Debug\QA.pdb
+C:\Users\Administrator\Desktop\Balls\QA\obj\Debug\QA.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Balls\QA\obj\Debug\QA.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Balls\QA\obj\Debug\QA.dll
+C:\Users\Administrator\Desktop\Balls\QA\obj\Debug\QA.pdb
+C:\Users\Admin\Desktop\Balls\QA\bin\Debug\QA.dll
+C:\Users\Admin\Desktop\Balls\QA\bin\Debug\QA.pdb
+C:\Users\Admin\Desktop\Balls\QA\obj\Debug\QA.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Balls\QA\obj\Debug\QA.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Balls\QA\obj\Debug\QA.dll
+C:\Users\Admin\Desktop\Balls\QA\obj\Debug\QA.pdb

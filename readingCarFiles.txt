@@ -1,0 +1,45 @@
+package mike;
+
+import java.io.*;
+import java.util.*;
+
+public class Program {
+	
+	public static void main(String[] args) throws IOException{
+		HashMap<String, String> locations = new HashMap<>();
+		// a demo of using HashMap
+		locations.put("Br", "Bristol");
+		locations.put("Lo", "London");
+		System.out.println(locations.get("Lo"));
+		locations.clear();
+
+		// Tip 1:
+		getLocationData(locations, "Location.data");
+		System.out.println("The town is: " + locations.get("B"));
+		
+		// Tip 2:
+		readCars("Car.data");
+		
+	}
+	private static void readCars(String fileName) throws FileNotFoundException, IOException {
+		FileInputStream fis = new FileInputStream(fileName);
+		InputStreamReader isr = new InputStreamReader(fis);
+		BufferedReader br = new BufferedReader(isr);
+		String carInfo = "";
+		
+		for (int counter = 1;(carInfo = br.readLine()) != null; counter++) {
+			System.out.println(counter + " : " + carInfo + "\n");
+		}
+	}
+	public static void getLocationData(Map<String, String> locations, String fileName) 
+			throws IOException {
+		FileInputStream fis = new FileInputStream(fileName);
+		InputStreamReader isr = new InputStreamReader(fis);
+		BufferedReader br = new BufferedReader(isr);
+		String line;
+		while ((line = br.readLine()) != null) {
+			String[] info = line.split(",");
+			locations.put(info[0], info[1]);
+		}
+	}
+}
